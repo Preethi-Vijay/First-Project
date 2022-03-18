@@ -1,0 +1,56 @@
+
+.header{
+    background-color: black;
+    color:white;
+    height: 100px;
+}
+.title{
+    color:rgba(214, 214, 214, 0.904);
+}
+.buttons{
+    margin-top: -90px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    font-size: 24px;
+    border: 2px solid black;
+    padding: 5px 2px;
+}
+.viewineditor{
+    margin-right: 0.5px; 
+}
+.signup{
+    margin-left: 5px;
+}
+.login{
+    margin-left:5px;
+    margin-right:5px;
+}
+.img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body
+figure{
+    background-color: white;
+}
+main{
+    background-color: rgba(238,238,238,255);
+    color: black;
+    text-align:justify;
+}
+.article{
+    
+    width: 800px;
+    text-align: justify;
+    box-sizing: content-box;
+    border: 1px solid transparent;
+    margin:auto;
+    padding-right: 80px;
+    padding-left: 80px;
+    line-height: 25px;
+
+}
