@@ -1,0 +1,59 @@
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+#description{
+    font-size: large;
+    text-align:center;
+}
+body{
+    
+    background-color: #8657a7;
+    text-align: left;
+    align-content: center;
+
+}
+
+
+#name,
+#email,
+#number,
+#options
+{
+    display: inline-block;
+    
+    width: 150%; height: 30px; margin-left: 52px;
+    font-size: medium;
+}
+#submit{
+    background-color: green;
+    width: 150%; height: 30px; margin-left: 52px;
+    font-size: medium;
+}
+#border
+{
+    font-size: large;
+    -moz-box-align:start;
+    background-color:#8d6cd7;
+    border: 2px solid black;
+    position: absolute;    
+    width:50%;
+    height:105%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25%;
+    
+    padding-bottom: 5%;
+    padding-top: 3%;
+    display: flex;
+    align-content: center;
+    
+}
+div{
+    position: relative;
+    text-indent: 50px each-line;
+
+}
+
+

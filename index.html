@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<html>
+
+   <title>
+      FCC: Survey Form
+   </title>
+
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description"> Thank you for taking the time to help us improve the platform</p>
+  
+  <body>
+    
+   <div id="border">
+   <form class="survey-form">
+      <label for="name" style="text-indent:50px;"> Name:</label><br>
+      <input  type="text" id="name" name="Name" placeholder="Enter your name" required maxlength="15"/><br><br>
+      <label for="email" > Email:</label><br>
+      <input type="email" id="email" name="Email" placeholder="Enter Email Address" required maxlength="20" pattern="[a-z]{1,15}"
+        title="Username should only contain lowercase letters. e.g. john"><br><br>
+       <label for="number"> Age:</label><br>
+      <input type="number" id="number" name="age" placeholder="Enter your Age" required/><br><br>
+      <label for ="options"> Which option best describes your current role? </label><br>
+      <input list="dropdown" type="text" id="options" name="roles" placeholder="Select current role" required/><br><br>
+      <datalist id="dropdown">
+        <option value="student">
+        <option value= "full time job">
+        <option value="Full time learner">
+        <option value="prefer not to say">
+        <option value="other">
+      </datalist>
+     
+      <label> Would you recommend freeCodeCamp to a friend? </label><br>
+      <input type="radio" id="definitely" name="friend" value="Definitely">
+      <label for="definitely">Definitely</label><br>
+     <input type="radio" id="maybe" name="friend" value="Maybe">
+     <label for="maybe">Maybe</label><br>
+     <input type="radio" id="Notsure" name="friend" value="Not-sure">
+    <label for="Notsure">Notsure</label><br><br>
+     
+      <label for ="feature"> What is your favorite feature of freeCodeCamp? </label><br>
+      <input list="features" type="text" id="options" name="roles" placeholder="Select an option" required/><br><br>
+      <datalist id="features">
+        <option value="Challenges">
+        <option value= "Project">
+        <option value="Community">
+        <option value="Open Sourse">
+      </datalist>
+    
+      <label> What would you like to see improved? (Check all that apply) </label><br>
+      
+      <input type="checkbox" id="Front-end-projects" name="Front-end-projects"/>   
+   <label for="Front-end-projects"> Front-End-Projects</label><br>
+      <input type="checkbox" id="Back-end-projects" name="Front-end-projects"/>   
+   <label for="Back-end-projects"> Back-End-Projects</label><br>
+      <input type="checkbox" id="Data-Visualization" name="Data-Visualization"/>   
+   <label for="Data-Visualization"> Data-Visualization</label><br>
+      <input type="checkbox" id="Challenges2" name="Data-Visualization"/>   
+   <label for="Challenges2"> Challenges</label><br>
+      <input type="checkbox" id="open-sourse-community" name="open-sourse-community"/>   
+   <label for="open-sourse-community"> Open-Sourse-Community</label><br>
+      <input type="checkbox" id="Gitter-helper-rooms" name="Gitter-helper-rooms"/>   
+   <label for="Gitter-helper-rooms"> Gitter-helper-rooms</label><br><br>
+      
+
+      <label for="comments"> Any comments or suggestions?</label><br><br>
+      <textarea id="comments" name="comments" rows="5" cols="7" style="margin-left: 52px; ">Enter your Comments here...</textarea><br><br>
+      <button id="submit" type="button" >Submit</button>
+      
+      </form>
+   </div>
+  </body>
+      
+      
+      
